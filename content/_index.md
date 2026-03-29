@@ -1,33 +1,37 @@
 ---
-title: Documentation
+title: Epimethean Challenge
 ---
 
-{{< callout type="warning" >}}
-**This is Epimethean Challenge, not Empyrean Challenge.**
+Epimethean Challenge (EC) is a space strategy game where you control a fledgling interstellar nation. Each turn you issue orders — exploring new star systems, colonizing planets, building ships, and negotiating with (or fighting) your neighbors. The game processes everyone's orders simultaneously, so diplomacy and timing matter as much as tactics.
 
-EC is a clone of the original 1978 Empyrean Challenge rulebook, updated to run in a browser rather than through the postal service. If you were looking for the real thing, we're flattered but can't help you.
+EC is a modern clone of the 1978 play-by-mail game *Empyrean Challenge*, updated to run in a browser instead of through the postal service. The rules stay true to the original, but the interface is a lot friendlier than a typewritten envelope.
 
-The documentation structure here is ambitious. The documentation itself is mostly non-existent. Both will be written (and rewritten, and rewritten again) alongside the code. If a page looks empty, it probably is. We have plans. We also have a blank text editor.
+The game is still in active development. Expect rough edges, resets, and the occasional bug. If something breaks, we genuinely want to hear about it.
 
-The game engine is written in Go. The docs are built with Hugo and Hextra. Coding agents — Amp, Claude, and Codex — are being used everywhere possible. They're kind of fun to work with, and only occasionally hallucinate game rules that don't exist.
+{{< cards >}}
+    {{< card link="/docs/players/tutorials/first-turn"
+        icon="play"
+        title="Start Here"
+        subtitle="Play your first turn with a step-by-step walkthrough."
+    >}}
 
-Expect bugs. Expect resets. Expect the unexpected. If something breaks, congratulations — you've found a feature we haven't documented yet. Bug reports are welcome and genuinely appreciated.
+    {{< card link="/reference/orders"
+        icon="clipboard-list"
+        title="Orders Reference"
+        subtitle="Every available order on a single page."
+    >}}
 
-The source code will be published on GitHub once the game engine design settles down. Until then, trust the process. Or don't. We understand.
-{{< /callout >}}
+    {{< card link="/docs/players/tutorials"
+        icon="academic-cap"
+        title="Tutorials"
+        subtitle="Learn the basics through guided lessons."
+    >}}
 
-Welcome to the EC documentation.
+    {{< card link="/docs/players/how-to"
+        icon="book-open"
+        title="How-To Guides"
+        subtitle="Practical steps for common tasks like submitting orders and planning expansion."
+    >}}
 
-## Start here
-
-- New player → /docs/players/tutorials/first-turn/
-- Command reference → /docs/players/reference/commands/
-- Turn report guide → /docs/players/reference/turn-report/
-- Historical manuals → /history/
-
-## Sections
-
-- Players
-- Referees
-- Developers
-- Historical Editions
+    {{< discord-card >}}
+{{< /cards >}}

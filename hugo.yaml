@@ -25,6 +25,7 @@ markup:
     noClasses: false
 
 params:
+  discord_url: "https://discord.com/invite/YAAfPDPfdp"
   blog:
     list:
       sortBy: date
