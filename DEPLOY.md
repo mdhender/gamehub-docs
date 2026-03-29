@@ -1,5 +1,12 @@
 # Deploy Documentation Site
 
+## Serve Locally
 ```bash
-hugo && rsync -avz --delete public/ epimethean:/var/www/epimethean.dev/
+tools/server.sh
+```
+
+## Deploy
+
+```bash
+tools/deploy.sh
 ```

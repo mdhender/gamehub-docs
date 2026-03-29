@@ -2,8 +2,9 @@
 
 ## Project Overview
 
-This is a Hugo documentation site for "EC" (Empyrean Challenge), a play-by-mail game.
-It uses the [Hextra](https://github.com/imfing/hextra) theme via Hugo modules and is published to https://epimethian.dev/.
+This is a Hugo documentation site for "EC" (Epimethean Challenge), a play-by-mail game.
+The repository is [`mdhender/gamehub-docs`](https://github.com/mdhender/gamehub-docs).
+It uses the [Hextra](https://github.com/imfing/hextra) theme via Hugo modules and is published to https://docs.damned.dev/.
 
 ## Tech Stack
 
@@ -28,8 +29,7 @@ content/
 │   └── developers/     # Developer/coding-agent documentation (same sub-structure)
 ├── history/            # Preserved historical game manuals (1978, 1980, 1994)
 ├── reference/          # Cross-cutting quick-lookup pages
-├── blog/               # Notes / blog posts
-└── reports/            # Turn report content
+└── blog/               # Notes / blog posts
 ```
 
 ## Conventions
@@ -46,7 +46,7 @@ content/
 ```sh
 hugo server       # Local dev server (http://localhost:1313)
 hugo              # Build to public/
-rsync -avz --delete public/ epimethean:/var/www/epimethean.dev/  # deploy to production
+tools/deploy.sh   # deploy to production
 ```
 
 ## Do Not Modify
