@@ -9,7 +9,7 @@ hugo || {
 # push the public/ folder to the production server.
 # note: it's "public/" not "public" - if we drop the slash, rsync will try
 #       to create the folder on the remote server!
-rsync -avz --delete public/ gamehub:/var/www/docs.damned.dev/ || {
+rsync -avz --delete public/ gamehub:/var/www/gamehub-docs/ || {
   echo "error: couldn't push 'public/'"
   exit 2
 }

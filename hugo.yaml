@@ -1,4 +1,4 @@
-baseURL: "https://docs.damned.dev/"
+baseURL: "https://docs.epimethean.dev/"
 title: "EC Documentation"
 languageCode: "en-us"
 
@@ -46,4 +46,3 @@ menu:
       name: History
       url: /history/
       weight: 30
-
