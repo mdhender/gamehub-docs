@@ -26,10 +26,6 @@ markup:
 
 params:
   discord_url: "https://discord.com/invite/YAAfPDPfdp"
-  blog:
-    list:
-      sortBy: date
-      sortOrder: desc
   navbar:
     displayTitle: true
     displayLogo: false
@@ -50,7 +46,4 @@ menu:
       name: History
       url: /history/
       weight: 30
-    - identifier: blog
-      name: Blog
-      url: /blog/
-      weight: 40
+
