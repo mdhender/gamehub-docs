@@ -34,15 +34,19 @@ params:
 
 menu:
   main:
-    - identifier: docs
-      name: Docs
-      url: /docs/
-      weight: 10
-    - identifier: reference
-      name: Reference
-      url: /reference/
-      weight: 20
+    - identifier: players
+      name: Players
+      url: /players/
+      weight: 100
+    - identifier: referees
+      name: Referees
+      url: /referees/
+      weight: 400
+    - identifier: developers
+      name: Developers
+      url: /developers/
+      weight: 500
     - identifier: history
       name: History
       url: /history/
-      weight: 30
+      weight: 600

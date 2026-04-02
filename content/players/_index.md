@@ -11,7 +11,7 @@ The game is still in active development. Expect rough edges, resets, and the occ
 ## Getting Started
 
 {{< cards >}}
-{{< card link="/docs/tutorials/first-turn"
+{{< card link="/players/tutorials/first-turn"
     icon="play"
     title="Start Here"
     subtitle="Learn how to play your first turn with a step-by-step walkthrough."
@@ -19,49 +19,31 @@ The game is still in active development. Expect rough edges, resets, and the occ
 
 {{< discord-card >}}
 
-{{< card link="/docs/how-to/submit-orders"
+{{< card link="/players/how-to/submit-orders"
     icon="academic-cap"
     title="Submit Orders"
     subtitle="Step-by-step instructions for submitting orders."
 >}}
 
-{{< card link="/docs/reference/orders"
-    icon="academic-cap"
-    title="Orders Reference"
-    subtitle="Complete command syntax and rules."
->}}
-
-{{< card link="/docs/explanation/game-design"
+{{< card link="/developers/explanation/game-design"
     icon="academic-cap"
     title="Game Concepts"
     subtitle="Understand how the system works."
 >}}
 {{< /cards >}}
 
-## Sections
+## Handy References
 
 {{< cards >}}
-{{< card link="/docs/players/tutorials/first-turn"
-    icon="play"
-    title="Start Here"
-    subtitle="Play your first turn with a step-by-step walkthrough."
->}}
-
 {{< card link="/reference/orders"
-    icon="clipboard-list"
-    title="Orders Reference"
-    subtitle="Every available order on a single page."
->}}
-
-{{< card link="/docs/players/tutorials"
     icon="academic-cap"
-    title="Tutorials"
-    subtitle="Learn the basics through guided lessons."
+    title="Orders Reference"
+    subtitle="Complete command syntax and rules."
 >}}
 
-{{< card link="/docs/players/how-to"
-    icon="book-open"
-    title="How-To Guides"
-    subtitle="Practical steps for common tasks like submitting orders and planning expansion."
+{{< card link="/developers/explanation/game-design"
+    icon="academic-cap"
+    title="Game Concepts"
+    subtitle="Understand how the system works."
 >}}
 {{< /cards >}}
