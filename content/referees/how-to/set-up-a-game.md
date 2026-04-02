@@ -1,5 +1,6 @@
 ---
 title: Set Up a New Game
+weight: 1000
 ---
 
 Use the web interface to build a star cluster, prepare home systems, and assign empires to players.
