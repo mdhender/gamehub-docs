@@ -1,38 +1,21 @@
 ---
 title: Set the Light or Dark Theme
-weight: 100
 ---
 
 Switch the site between light mode, dark mode, or your system's default appearance.
 
 ## Steps
 
-### 1. Open the theme toggle
+### 1. Open your settings
 
-Look for the sun or moon icon in the top-right corner of any page, next to the search bar.
+Click your name at the bottom of the sidebar, then select **Settings**.
 
-- **Sun icon** — the site is currently in light mode.
-- **Moon icon** — the site is currently in dark mode.
-- **Monitor icon** — the site is following your system preference.
+### 2. Go to Appearance
 
-Click the icon to cycle to the next option.
+Select the **Appearance** tab.
 
-### 2. Select your preferred mode
+### 3. Choose a theme
 
-Each click cycles through the three options in order:
+Select **Light**, **Dark**, or **System** (follows your OS preference).
 
-| Icon | Mode |
-|------|------|
-| Sun | Light |
-| Moon | Dark |
-| Monitor | System (follows your OS setting) |
-
-Stop clicking when the icon matches the mode you want.
-
-### 3. Confirm the change
-
-The page appearance updates immediately — no reload required. The icon in the top-right corner reflects your current selection.
-
-{{< callout type="info" >}}
-Your choice is saved in your browser. It persists across visits and page navigation on this site, but is not tied to your account. Clearing your browser's site data will reset the theme to the system default.
-{{< /callout >}}
+The change applies immediately.
