@@ -1,13 +1,15 @@
 ---
 title: Unit Codes
-weight: 15
 ---
 
-Every item in the game — from factories to fuel — is identified by a short unit code. These codes appear in turn reports, order syntax, and inventory listings. Units with tech levels use the format `CODE-TL` (e.g., `FCT-3`); consumables use the plain code (e.g., `FUEL`).
+Every item in the game — from factories to fuel — is identified by a short unit code.
+These codes appear in turn reports, order syntax, and inventory listings.
+Units with tech levels use the format `CODE-TL` (e.g., `FCT-3`); consumables use the plain code (e.g., `FUEL`).
 
 ## Operational Units (Assembly)
 
-Operational units are assembled from raw materials and installed on colonies or ships. They form the infrastructure of your empire.
+Operational units are assembled from raw materials and installed on colonies or ships.
+They form the infrastructure of your empire.
 
 ### Production Units
 

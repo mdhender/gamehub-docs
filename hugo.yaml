@@ -53,12 +53,16 @@ menu:
       name: Developers
       url: /developers/
       weight: 3
+    - identifier: reference
+      name: Reference
+      url: /reference/
+      weight: 4
     - identifier: history
       name: History
       url: /history/
-      weight: 4
-    - name: GitHub
       weight: 5
+    - name: GitHub
+      weight: 6
       url: "https://github.com/mdhender/gamehub"
       params:
         icon: github
