@@ -1,6 +1,13 @@
 baseURL: "https://docs.epimethean.dev/"
 title: "EC Documentation"
-languageCode: "en-us"
+#languageCode: "en-us"
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+    title: "EC Documentation"
 
 module:
   imports:
@@ -37,16 +44,21 @@ menu:
     - identifier: players
       name: Players
       url: /players/
-      weight: 100
+      weight: 1
     - identifier: referees
       name: Referees
       url: /referees/
-      weight: 400
+      weight: 2
     - identifier: developers
       name: Developers
       url: /developers/
-      weight: 500
+      weight: 3
     - identifier: history
       name: History
       url: /history/
-      weight: 600
+      weight: 4
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/mdhender/gamehub"
+      params:
+        icon: github
