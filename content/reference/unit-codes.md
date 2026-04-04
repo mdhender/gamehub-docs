@@ -6,10 +6,11 @@ Every item in the game — from factories to fuel — is identified by a short u
 These codes appear in turn reports, order syntax, and inventory listings.
 Units with tech levels use the format `CODE-TL` (e.g., `FCT-3`); consumables use the plain code (e.g., `FUEL`).
 
-## Operational Units (Assembly)
+## Assembly-Required Units
 
-Operational units are assembled from raw materials and installed on colonies or ships.
-They form the infrastructure of your empire.
+The 1978 manual calls these "operational units". In Gamehub docs, we prefer `assembly_required` because it states the rule more clearly.
+
+These units must be assembled before they can function. They often form part of the installed inventory of a ship or colony, though they may also exist as unassembled cargo.
 
 ### Production Units
 
@@ -29,7 +30,7 @@ Farms at TL 1 are standard open-colony farms limited by the planet's habitabilit
 | `AUT` | Automation | 4 × TL | 0 | Each unit replaces TL unskilled workers in production |
 | `HEN` | Hyper Engines | 45 × TL | 40 × distance jumped | Jump range: 1 light-year × TL; moves 1,000 MU × TL |
 | `LFS` | Life Supports | 8 × TL | 1 × TL | Supports TL² population units |
-| `PWP` | Power Plants | — | — | Powers other operational units |
+| `PWP` | Power Plants | — | — | Powers other assembly-required units |
 | `SEN` | Sensors | 2,998 + (2 × TL) | TL / 20 | Detects ships/colonies; conducts TL probes per turn |
 | `SLS` | Light Structure | 0.05 | 0 | Built only in orbital colonies; substitutes for STU |
 | `SPD` | Space Drives | 25 × TL | TL² (combat only) | Thrust: TL² × 1,000; required on all ships |
@@ -44,8 +45,8 @@ Farms at TL 1 are standard open-colony farms limited by the planet's habitabilit
 | `ASW` | Assault Weapons | 20 | 0 | Surface combat weapons used by soldiers |
 | `ESH` | Energy Shields | 50 × TL | 10 × TL | Deflect energy beams; absorption scales with TL |
 | `EWP` | Energy Weapons | 10 × TL | 4 × TL per combat round | Beam weapons; cannot fire surface-to-surface |
-| `MSL` | Missile Launchers | 25 × TL | 0 | Launch missiles and anti-missiles; accuracy scales with TL |
-| `MSS` | Missiles | 4 × TL | 0 | Ammunition for missile launchers |
+| `MSL` | Missile Launchers | 25 × TL | 0 | Assembly-required launcher for missiles and anti-missiles; accuracy scales with TL |
+| `MSS` | Missiles | 4 × TL | 0 | Ammunition consumed by missile launchers; does not require assembly |
 | `MTBT` | Military Robots | (2 × TL) + 20 | 0 | Replace TL × 2 soldier units; cannot serve in spy units |
 
 ## Vehicles
